@@ -1,0 +1,9 @@
+#grad {
+    background-image: linear-gradient(to bottom right, black, purple);
+    margin: auto;
+}
+
+p{
+    text-align: center;
+    color: yellow;
+}

@@ -1,0 +1,100 @@
+#grad {
+    background-image: linear-gradient(to bottom right, lightgreen, yellow);
+    margin: auto;
+}
+
+body {
+    background: #FFF3CD;
+    font: 18px/22px Arial, Helvetica, sans-serif;
+    margin: 0;
+  }
+  
+  .text-center {
+    text-align: center;
+  }
+  
+  .animated-text {
+    font-size: 40px;
+    line-height: 50px;
+    margin: 100px 0;
+  }
+  .animated-text a {
+    color: #666;
+    text-decoration: none;
+    text-shadow: 1px 1px 0px #fff, 3px 1px 0px rgba(0, 0, 0, 0.15);
+    -webkit-text-shadow: 1px 1px 0px #fff, 3px 1px 0px rgba(0, 0, 0, 0.15);
+  }
+  .animated-text a:hover {
+    color: #c5a47e;
+  }
+  .animated-text span {
+    display: inline-block;
+    text-transform: uppercase;
+    vertical-align: middle;
+  }
+  .animated-text span:nth-of-type(1) {
+    transition-delay: 0.1s;
+    -webkit-transition-delay: 0.1s;
+  }
+  .animated-text span:nth-of-type(2) {
+    transition-delay: 0.125s;
+    -webkit-transition-delay: 0.125s;
+  }
+  .animated-text span:nth-of-type(3) {
+    transition-delay: 0.15s;
+    -webkit-transition-delay: 0.15s;
+  }
+  .animated-text span:nth-of-type(4) {
+    transition-delay: 0.175s;
+    -webkit-transition-delay: 0.175s;
+  }
+  .animated-text span:nth-of-type(5) {
+    transition-delay: 0.2s;
+    -webkit-transition-delay: 0.2s;
+  }
+  .animated-text span:nth-of-type(6) {
+    transition-delay: 0.225s;
+    -webkit-transition-delay: 0.225s;
+  }
+  .animated-text span:nth-of-type(7) {
+    transition-delay: 0.25s;
+    -webkit-transition-delay: 0.25s;
+  }
+  .animated-text span:nth-of-type(8) {
+    transition-delay: 0.275s;
+    -webkit-transition-delay: 0.275s;
+    margin-right: 8px;
+  }
+  .animated-text span:nth-of-type(9) {
+    transition-delay: 0.3s;
+    -webkit-transition-delay: 0.3s;
+  }
+  .animated-text span:nth-of-type(10) {
+    transition-delay: 0.325s;
+    -webkit-transition-delay: 0.325s;
+  }
+  .animated-text span:nth-of-type(11) {
+    transition-delay: 0.350s;
+    -webkit-transition-delay: 0.350s;
+  }
+  .animated-text span:nth-of-type(12) {
+    transition-delay: 0.375s;
+    -webkit-transition-delay: 0.375s;
+  }
+  
+  .guide-box {
+    color: #fefefe;
+    border-width: 1px 0;
+    border-style: solid;
+    border-color: #ddd;
+  }
+  .guide-box span {
+    margin: 2px 0;
+    background: #000;
+    padding: 15px;
+    display: block;
+  }
+  
+p{
+    text-align: center;
+}

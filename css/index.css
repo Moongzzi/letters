@@ -1,0 +1,78 @@
+body {
+    margin-top: 20px;
+}
+
+#grad {
+    background-image: linear-gradient(to bottom right, purple, skyblue);
+    margin: auto;
+}
+
+p {
+    margin: 100px;
+    font-size: 60px;
+    color: yellow;
+    text-align: left;
+    animation: dis.9s;
+    animation: app.9s;
+    opacity: 0;
+}
+
+@keyframes dis{
+    from {opacity: 0;}
+    to {opacity: 1;}
+}
+
+@keyframes app{
+    from {opacity: 1;}
+    to {opacity: 0;}
+}
+
+.button {
+    position: relative;
+    width: auto;
+    display: inline-block;
+    border-radius: 4px;
+    background-color: #ffffcc;
+    border: none;
+    color: #000000;
+    text-align: center;
+    font-size: 28px;
+    padding: 100px;
+    transition: all 0.5s;
+    cursor: pointer;
+    margin: 12px;
+}
+
+.button span {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    width: auto;
+    transition: 0.5s;
+}
+
+.button span:after {
+    content: '♥';
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -20px;
+    transition: 0.5s;
+}
+
+.button:hover span {
+    padding-right: 25px;
+}
+
+.button:hover span:after {
+    opacity: 1;
+    right: 0;
+}
+
+.buttonD {border-radius: 50%;}
+.buttonC {border-radius: 50%;}
+
+a:link { 
+    color: purple;
+    text-decoration: none;
+}
